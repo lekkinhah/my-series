@@ -6,7 +6,7 @@ A API foi desenvolvida pela DevPleno, tendo sido anexada como dependência ao pr
 
 Para possibilitar o desenvolvimento com a API, foi utilizado Proxy no arquivo `package.json`para direcionamento das requisições do Axios:
 
-### `proxy": "http://localhost:3002/`
+### `"proxy": "http://localhost:3002/"`
 
 
 Utiliza-se o BootStrap para composição do CSS e SQLite como database.
