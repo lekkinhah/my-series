@@ -1,3 +1,18 @@
+Este é um projeto desenvolvido durante o curso de ReactJS da DevPleno. 
+
+A API foi desenvolvida pela DevPleno, tendo sido anexada como dependência ao projeto. Para rodar utilizar:
+
+### `node node_modules\minhas-series-server\index.js`
+
+Para possibilitar o desenvolvimento com a API, foi utilizado Proxy no arquivo `package.json`para direcionamento das requisições do Axios:
+
+### `proxy": "http://localhost:3002/`
+
+
+Utiliza-se o BootStrap para composição do CSS e SQLite como database.
+
+###########################################################3
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
