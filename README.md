@@ -1,17 +1,16 @@
-Este é um projeto desenvolvido durante o curso de ReactJS da DevPleno. 
+My Series is a project developed at `DevPleno` ReactJS course. This project uses BootStrap to organize de CSS and SQLite as database.
 
-A API foi desenvolvida pela DevPleno, tendo sido anexada como dependência ao projeto. Para rodar utilizar:
+The API was developed by DevPleno and was attached as a dependency to the project.. You can run:
 
 ### `node node_modules\minhas-series-server\index.js`
 
-Para possibilitar o desenvolvimento com a API, foi utilizado Proxy no arquivo `package.json`para direcionamento das requisições do Axios:
+IMPORTANT!
+The devepment using the API as a dependency requires a Proxy at `package.json`, so you will see the follow command:
 
 ### `"proxy": "http://localhost:3002/"`
 
 
-Utiliza-se o BootStrap para composição do CSS e SQLite como database.
-
-###########################################################3
+###########################################################
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
